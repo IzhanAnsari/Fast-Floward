@@ -63,7 +63,7 @@ pub resource Printer {
         self.picsPrinted = {}
     }
     //function takes in a canvas and returns its picture resource if it has not been printed
-    pub fun print(canvas: Canvas): @Picture?{
+    pub fun print(canvas: Canvas): @Picture?{ // take in type Canvas, return Resource of Picture. Optional tho so can be nil.
         if(self.picsPrinted.containsKey(canvas.pixels)){
             log("sorry buddy ol' pal, no can doooooo")
             return nil
