@@ -19,7 +19,7 @@ pub struct Canvas{
 
 //creating a Picture RESOURCE
 pub resource Picture{
-    pub let canvas: Canvas //create an instance of a canvas structure
+    pub let canvas: Canvas //create an instance of a canvas structured
 
     init(canvas: Canvas){
         self.canvas = canvas;
